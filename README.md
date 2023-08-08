@@ -7,16 +7,3 @@ This dataset contains house sale prices for King County, which includes Seattle.
 > - Find an interesting dataset on this page: https://www.kaggle.com/datasets?fileType=csv
 > - The data should be in CSV format, and should contain at least 3 columns and 150 rows
 > - Download the dataset using the [`opendatasets` Python library](https://github.com/JovianML/opendatasets#opendatasets)
-
-!pip install jovian opendatasets --upgrade --quiet
-# Change this
-dataset_url = 'https://www.kaggle.com/datasets/sumaya23abdul/house-sales-in-king-county-usa' 
-import opendatasets as od
-od.download(dataset_url)
-The dataset has been downloaded and extracted.
-# Change this
-data_dir = './house-sales-in-king-county-usa'
-import os
-os.listdir(data_dir)
-Let us save and upload our work to Jovian before continuing.
-project_name = "house-sales-in-king-county" # change this (use lowercase letters and hyphens only)
